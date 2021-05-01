@@ -55,6 +55,10 @@ def predict(text):
 
 
 if __name__ == '__main__':
-    string = '新型冠状病毒肺炎（Corona Virus Disease 2019，COVID-19），简称“新冠肺炎”，世界卫生组织命名为“2019冠状病毒病” [1-2]  ，是指2019新型冠状病毒感染导致的肺炎。'
+    string = '新型冠状病毒肺炎（Corona Virus Disease 2019，COVID-19），简称"新冠肺炎"。'
+    result = predict(string)
+    print(result)
+
+    string = '世界卫生组织命名为"2019冠状病毒病"[1-2]  ，是指2019新型冠状病毒感染导致的肺炎。'
     result = predict(string)
     print(result)
