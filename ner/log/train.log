@@ -1802,3 +1802,5 @@
 
 2021-05-01 15:55:51,029 - /Users/yucheng/Applications/python/DiseaseNer/ner/log/train.log - INFO - Reading model parameters from /Users/yucheng/Applications/python/DiseaseNer/ner/ckpt/ner.ckpt-1032
 2021-05-01 16:02:55,162 - /Users/yucheng/Applications/python/DiseaseNer/ner/log/train.log - INFO - Reading model parameters from /Users/yucheng/Applications/python/DiseaseNer/ner/ckpt/ner.ckpt-1032
+2021-05-01 19:13:12,157 - /Users/yucheng/Applications/python/DiseaseNer/ner/log/train.log - INFO - Reading model parameters from /Users/yucheng/Applications/python/DiseaseNer/ner/ckpt/ner.ckpt-1032
+2021-05-01 19:13:37,243 - /Users/yucheng/Applications/python/DiseaseNer/ner/log/train.log - INFO - Reading model parameters from /Users/yucheng/Applications/python/DiseaseNer/ner/ckpt/ner.ckpt-1032

@@ -162,7 +162,6 @@ def create_model(session, Model_class, path, config, logger):
     return model
 
 
-# tran no use
 def bio_to_json(string, tags):
     item = {}
     entity_name = ""

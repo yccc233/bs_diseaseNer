@@ -11,6 +11,7 @@ from utils import bio_to_json
 #from bert import modeling
 from albert_zh import modeling
 
+
 class Model(object):
     def __init__(self, config):
 
@@ -56,7 +57,6 @@ class Model(object):
         # bert模型参数初始化的地方
 
         project_dir = os.path.dirname(os.path.abspath(__file__))
-        # init_checkpoint = "%s/chinese_L-12_H-768_A-12/bert_model.ckpt"%project_dir
         init_checkpoint = "%s/albert_tiny/albert_model.ckpt" % project_dir
         # 获取模型中所有的训练参数。
         tvars = tf.trainable_variables()
